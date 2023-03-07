@@ -1,0 +1,25 @@
+.background-props{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tour-country{
+    height: $tour-banner-heigh;
+    width: $tour-banner-width;
+    background-color: rgb(163, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+}
+
+.dos{
+    background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+}
+.tres{
+    background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+}

@@ -1,0 +1,878 @@
+.home {
+
+
+    .hero{
+
+        max-width: 100%;
+        height: $hero-height;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+       //dont olvidar la coma
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $site-white;
+
+        .callout{
+            margin-top: 100px;
+
+            width: 416px;
+            min-height: 100px;
+           // background-color: aqua;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            
+
+            h1{
+                margin-bottom: 50px;
+                font-family: 'Proxima Nova thin', sans-serif;
+                font-size: 60px;
+
+            }
+            p{
+                margin-bottom: 50px;
+                text-align: center;
+                font-size: 20px;
+                font-family: 'Gill Sans Italic', sans-serif;
+
+                
+               
+            }
+
+            span{
+
+                background-color: $site-blue;
+                padding: 15px 30px;
+                font-size: 15px;
+                font-family: 'Gill Sans', sans-serif;
+
+            }
+
+           
+        }
+
+    }
+
+    .promo {
+
+        max-width: 818px;
+        min-height: $tour-banner-heigh;
+       // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        //flex-wrap: wrap;
+        margin: -43px auto 0 auto;
+
+
+        h1{
+            font-size: 45px;
+            font-family: 'Proxima Nova Thin', sans-serif;
+        }
+
+        p{
+            font-size: 25px;
+            font-family: 'Proxima Nova Thin', sans-serif;
+        }
+
+        span{
+
+            background-color: $site-blue;
+            padding: 10px 30px;
+            border-radius: 25px;
+            font-size: 15px;
+            font-family: 'Gill Sans', sans-serif;
+
+            a{
+            text-decoration: none;
+            color: $site-white;
+            }
+        }
+
+        
+        
+
+
+
+
+    }
+
+    .form-area{
+        max-width: 818px;
+        min-height: $tour-banner-heigh;
+       // background-color: red;
+        
+        margin: 50px auto 0 auto;
+      //  display: flex;
+       // justify-content: space-between;
+
+       h1{
+
+        font-size: 60px;
+        font-family: 'Proxima Nova Thin', sans-serif;
+       }
+
+        .form{
+            input{
+
+                height: 58px;
+                padding: 5px;
+                border: solid $site-blue 2px;
+                font-family: 'Gill Sans Light', sans-serif;  
+
+
+            
+               
+            }
+
+            .two-input{
+
+                min-height: 58px;
+              //  background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+                .left{
+                    width: 344px;
+                    padding-left: 24px;
+                    font-size: 18px;
+                   // height: 58px ;
+                   // padding: 5px;
+                //    font-size: ;
+            //    border: solid $site-blue 2px;
+
+                }
+
+                .right{
+
+                    width: 453px;
+                    padding-left: 24px;
+                    font-size: 18px;
+                  //  height: 58px ;
+                  //  padding: 5px;
+                  //  border: solid $site-blue 2px;
+
+                }
+            }
+
+            .single-line-holder{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 20px;
+                font-size: 18px;
+                font-family: 'Gill Sans Light', sans-serif;
+
+             .large-input{
+               width: 698px;
+               //align-items: end;
+               padding-left: 24px;
+               font-size: 18px;
+                   }
+             .icon{
+              font-size: 24px;
+              position: absolute;
+                right: 30px;
+
+
+
+                }
+            }
+
+            .three-input{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+             //  position: relative;
+               margin-bottom: 20px;
+             //left: 43px;
+             width: 859px;
+            font-size: 18px;  
+            font-family: 'Gill Sans Light', sans-serif;  
+            
+
+              
+               
+
+                .icon{
+                    font-size: 24px;
+                    position: relative;
+                      right:  55px;
+      
+                      }
+
+                .one{
+
+                   width: 103px;
+                   left: 40px;
+                   padding-left: 24px;
+                   font-size: 18px;
+               }
+                label{
+
+
+                    position: relative;
+                    padding-right: 59px;
+                    font-size: 18px;
+                }  
+            }
+        
+            
+             .message{
+           // display: flex;
+         margin-bottom: 37px;
+
+                  .mess{
+                    width: 820px;
+                    min-height: 192px;
+                    padding-bottom: 140px;
+                    padding-left: 24px;
+                    font-size: 18px;
+                    font-family: 'Gill Sans Light', sans-serif;  
+
+       
+                 }
+        }
+            .sub{
+
+                margin-bottom: 100px;
+
+                .subm{
+                   width: 820px;
+                  min-height: 61px;
+                    align-items: center;
+
+                    background-color: $site-blue;
+                    padding: 10px 30px;
+                    border-radius: 30px;
+                    color: $site-white;
+                    font-size: 15px;
+                    font-family: 'Gill Sans', sans-serif;
+
+
+
+                }
+
+            }  
+        
+        
+
+
+            }
+        }
+
+
+}
+
+/*
+@media (min-width: 900px) and (min-width:800px) {
+    
+        .home{
+
+         
+              .hero{
+                  align-items: center;
+              }
+    
+           .form-area{
+    
+            
+                width: 870px;
+
+                h1{
+                 margin: 30px;
+                }
+ 
+                .form{
+                 align-items: center;
+                 margin: 30px;
+                 
+ 
+             .three-input{
+                  
+                    align-content: center;
+                    width: 775px;
+ 
+                    .one{
+                     width: 80%;
+                     padding-left: 10px;
+                    }
+ 
+                    .icon{
+ 
+                     right: 30px;
+                     position: relative;
+                     size: 80%;
+                    }
+                    
+ 
+                }
+ 
+                .sub{
+ 
+                 .subm{
+ 
+                     width: 760px;
+                     align-items: center;
+                 }
+                }
+ 
+                .two-input{
+                 max-width: 870px;
+ 
+                 .large-input{
+ 
+                     
+ 
+                    .left{
+ 
+                     width: 80%;
+                     
+                    }
+                    .right{
+ 
+                     width: 80%;
+                     
+                    }
+                 }
+ 
+ 
+                }
+ 
+                .message{
+ 
+                 .mess{
+                     width: 760px;
+                     align-items: center;
+ 
+                 }
+                }
+ 
+                }
+             }
+ 
+             
+           }
+        }
+        
+    
+//listo
+    @media (max-width: 800px) and (min-width:600px) {
+
+        .home{
+    
+            .promo{
+    
+              //  flex-direction: column; 
+              
+              margin-left: 30px;
+              margin-right: 30px;
+
+                align-items: center;
+
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .hero{
+                align-items: center;
+            }
+            .form-area{
+                align-items: center;
+
+                width: 770px;
+
+                h1{
+                 margin: 30px;
+                }
+ 
+                .form{
+                 align-items: center;
+                 margin: 30px;
+                 
+ 
+             .three-input{
+                  
+                    align-content: center;
+                    width: 725px;
+ 
+                    .one{
+                     width: 80%;
+                     padding-left: 10px;
+                    }
+ 
+                    .icon{
+ 
+                     right: 30px;
+                     position: relative;
+                     size: 80%;
+                    }
+                    
+ 
+                }
+ 
+                .sub{
+ 
+                 .subm{
+ 
+                     width: 710px;
+                     align-items: center;
+                 }
+                }
+ 
+                .two-input{
+                 max-width: 770px;
+ 
+                 .large-input{
+ 
+                     
+ 
+                    .left{
+ 
+                     width: 80%;
+                     
+                    }
+                    .right{
+ 
+                     width: 80%;
+                     
+                    }
+                 }
+ 
+ 
+                }
+ 
+                .message{
+ 
+                 .mess{
+                     width: 710px;
+                     align-items: center;
+ 
+                 }
+                }
+ 
+                }
+             }
+ 
+             
+         }
+            }
+        
+
+    //lista
+    @media (max-width: 600px) and (min-width:351px) {
+
+        .home{
+    
+            .promo{
+    
+                flex-direction: column; 
+                align-items: center;
+            }
+            .hero{
+                align-items: center;
+            }
+
+            .form-area{
+
+               width: 570px;
+
+               h1{
+                margin: 30px;
+               }
+
+               .form{
+                align-items: center;
+                margin: 30px;
+
+            .three-input{
+                 
+                   align-content: center;
+                   width: 525px;
+
+                   .one{
+                    width: 80%;
+                    padding-left: 10px;
+                   }
+
+                   .icon{
+
+                    right: 19px;
+                    position: relative;
+                    size: 80%;
+                   }
+                   
+
+               }
+
+               
+
+               .sub{
+
+                .subm{
+
+                    width: 510px;
+                    align-items: center;
+                }
+               }
+
+               .two-input{
+                max-width: 510px;
+
+                .large-input{
+
+                    
+
+                   .left{
+
+                    width: 80%;
+                    
+                   }
+                   .right{
+
+                    width: 80%;
+                    
+                   }
+                }
+
+
+               }
+
+               .message{
+
+                .mess{
+                    width: 510px;
+                    align-items: center;
+
+                }
+               }
+
+               }
+            }
+
+            
+        }
+        
+    }
+*/
+
+    @media (max-width: 600px) {
+    
+        .home{
+            width: 100%;
+        .promo{
+        
+       flex-direction: column; /// hace lo mismo que en block pero mejor
+        justify-content: space-between; //left to rifht
+             align-items: center;
+           
+               
+            }
+      
+            .hero{
+
+                flex-direction: column;
+                align-items: center;
+
+
+
+            }
+
+            .form-area{
+
+                margin-left: 20px;
+                margin-right: 20px;
+                .form{
+
+                    flex-direction: column;
+                    align-items: center;
+
+                    .two-input{
+
+                        .left{
+                        flex-direction: column;
+                        align-items: center;
+                        }
+                        .right{
+                            flex-direction: column;
+                            align-items: center;
+                            margin-right: 20px;
+                            }
+
+                        
+                        
+                    }
+
+
+                    .three-input{
+                        width: 100%;
+
+                    display: flex;
+                    
+                    }
+
+
+                    .message{
+                        
+
+                        .mess{
+
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+
+                    .sub{
+                        .subm{
+                        width: 100%;
+                        align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        }
+    
+        
+        @media (max-width: 800px) {
+            
+            .home{
+                width: 100%;
+            .promo{
+            
+           flex-direction: column; /// hace lo mismo que en block pero mejor
+            justify-content: space-between; //left to rifht
+                 align-items: center;
+               
+                   
+                }
+          
+                .hero{
+    
+                    flex-direction: column;
+                    align-items: center;
+    
+    
+    
+                }
+    
+                .form-area{
+    
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    .form{
+    
+                        flex-direction: column;
+                        align-items: center;
+    
+                        .two-input{
+    
+                            .left{
+                            flex-direction: column;
+                            align-items: center;
+                            }
+                            .right{
+                                flex-direction: column;
+                                align-items: center;
+                                margin-right: 20px;
+                                }
+    
+                            
+                            
+                        }
+    
+    
+                        .three-input{
+                            width: 100%;
+    
+                        display: flex;
+                        
+                        }
+    
+    
+                        .message{
+                            
+    
+                            .mess{
+    
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                        }
+    
+                        .sub{
+                            .subm{
+                            width: 100%;
+                            align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+           
+            }
+      
+        @media (max-width: 992px) {
+            
+            .home{
+                width: 100%;
+            .promo{
+            
+           flex-direction: column; /// hace lo mismo que en block pero mejor
+            justify-content: space-between; //left to rifht
+                 align-items: center;
+               
+                   
+                }
+          
+                .hero{
+    
+                    flex-direction: column;
+                    align-items: center;
+    
+    
+    
+                }
+    
+                .form-area{
+    
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    .form{
+    
+                        flex-direction: column;
+                        align-items: center;
+    
+                        .two-input{
+    
+                            .left{
+                            flex-direction: column;
+                            align-items: center;
+                            }
+                            .right{
+                                flex-direction: column;
+                                align-items: center;
+                                margin-right: 20px;
+                                }
+    
+                            
+                            
+                        }
+    
+    
+                        .three-input{
+                            width: 100%;
+    
+                        display: flex;
+                        
+                        }
+    
+    
+                        .message{
+                            
+    
+                            .mess{
+    
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                        }
+    
+                        .sub{
+                            .subm{
+                            width: 100%;
+                            align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+              } 
+      
+       @media (max-width: 1200px) {
+            
+        .home{
+            width: 100%;
+        .promo{
+        
+       flex-direction: column; /// hace lo mismo que en block pero mejor
+        justify-content: space-between; //left to rifht
+             align-items: center;
+           
+               
+            }
+      
+            .hero{
+
+                flex-direction: column;
+                align-items: center;
+
+
+
+            }
+
+            .form-area{
+
+                margin-left: 20px;
+                margin-right: 20px;
+                .form{
+
+                    flex-direction: column;
+                    align-items: center;
+
+                    .two-input{
+
+                        .left{
+                        flex-direction: column;
+                        align-items: center;
+                        }
+                        .right{
+                            flex-direction: column;
+                            align-items: center;
+                            margin-right: 20px;
+                            }
+
+                        
+                        
+                    }
+
+
+                    .three-input{
+                        width: 100%;
+
+                    display: flex;
+                    
+                    }
+
+
+                    .message{
+                        
+
+                        .mess{
+
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+
+                    .sub{
+                        .subm{
+                        width: 100%;
+                        align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+                
+                
+                
+                }
+                

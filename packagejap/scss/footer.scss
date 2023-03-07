@@ -1,0 +1,116 @@
+.footer-holder{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    width: $site-footer-width;
+    height: $site-footer-height;
+    background-color: $site-blue;
+    color: $site-white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  //margin: 0 auto;
+  align-content: space-between;
+  left: 95px;
+
+  margin-top: 100px;
+  
+  
+    .logo{
+  
+        img{
+         width: 92px;
+         height: 42px;
+         float: left;
+         margin-top: 30px;
+         padding-left: 10px;
+        }
+     }
+  
+     .copy{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $site-white;
+       align-content: center;
+       font-family: 'Gill Sans', sans-serif;
+  
+    span{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Gill Sans', sans-serif;
+    }
+
+     }
+     .icon{
+        font-size: 22px;
+        float: right;
+        padding-right: 31px;
+        margin-top: 30px;
+    }
+  }
+
+ //footer
+@media (max-width: 600px) {
+
+    
+  .footer-holder{
+  width: 100%;
+  display: flex;
+  align-content: center;
+  left: 0px;
+
+    
+  
+}
+  
+    }
+
+@media (max-width: 480px) {
+
+  
+      .footer-holder{
+      width: 100%;
+      display: flex;
+      align-content: center;
+      left: 0px;
+ 
+    }
+      
+        }
+
+@media (max-width: 800px) {
+
+  
+          .footer-holder{
+          width: 100%;
+          display: flex;
+          align-content: center;
+          left: 0px;
+      
+        }
+          
+            }
+
+@media (max-width: 992px) {
+
+  
+ .footer-holder{
+     width: 100%;
+     display: flex;
+     align-content: center;
+     left: 0px;
+            }
+              
+                }
+@media (max-width: 1200px) {
+
+  
+.footer-holder{
+width: 100%;
+display: flex;
+align-content: center;
+left: 0px;
+  }
+ }

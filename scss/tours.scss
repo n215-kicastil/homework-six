@@ -1,0 +1,137 @@
+.tours{
+
+
+.hero{
+
+    max-width: $content-width;
+    height: $hero-height;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour/tours-header.jpg);
+   //no olvidar la coma para que aparesca la imagen
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $site-white;
+    margin: 0 auto;
+    margin-top: 48px;
+
+    .callout{
+
+        h1{
+
+            font-family: 'Proxima Nova thin', sans-serif;
+            font-size: 60px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.countrys{
+
+    max-width: 818px;
+    min-height: $tour-banner-heigh;
+   // background-color: red;
+    display: flex;
+    justify-content: space-between;
+    //flex-wrap: wrap;
+    margin: 54px auto 0 auto;
+
+    .new{
+
+        h1{
+            font-size: 45px;
+            font-family: 'Proxima Nova Thin', sans-serif;
+        }
+    }
+
+
+    h1{
+        font-size: 45px;
+        font-family: 'Proxima Nova Thin', sans-serif;
+    }
+
+    p{
+        font-size: 25px;
+        font-family: 'Proxima Nova Thin', sans-serif;
+    }
+
+    span{
+
+        background-color: $site-blue;
+        padding: 10px 30px;
+        border-radius: 25px;
+        font-size: 15px;
+        font-family: 'Gill Sans', sans-serif;
+        
+
+        a{
+            text-decoration: none;
+            color: $site-white;
+        }
+    }
+
+}
+}
+
+@media (max-width: 600px) {
+    
+.tours{
+
+    flex-direction: column; /// hace lo mismo que en block pero mejor
+    // justify-content: space-between; //left to rifht
+     align-items: center;
+    .countrys{
+
+        flex-direction: column; /// hace lo mismo que en block pero mejor
+           // justify-content: space-between; //left to rifht
+            align-items: center;
+           margin-bottom: -45px;
+
+
+            .tour-country{
+
+                
+                margin-bottom: 35px;
+            }
+            
+    }
+
+
+
+}
+}
+
+@media (max-width: 800px) {
+    
+    .tours{
+    
+        flex-direction: column; /// hace lo mismo que en block pero mejor
+        // justify-content: space-between; //left to rifht
+         align-items: center;
+         
+
+        .countrys{
+    
+            flex-direction: column; /// hace lo mismo que en block pero mejor
+               // justify-content: space-between; //left to rifht
+                align-items: center;
+               margin-bottom: -45px;
+    
+    
+                .tour-country{
+    
+                    
+                    margin-bottom: 35px;
+                }
+                
+        }
+    
+    
+    
+    }
+    }
+
+
